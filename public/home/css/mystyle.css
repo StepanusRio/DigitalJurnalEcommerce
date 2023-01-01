@@ -1,0 +1,25 @@
+.preloader .loader-element .loader-animated-dot-after {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #6F6CD9;
+  border-radius: 50%;
+  position: absolute;
+  left: 64px;
+  top: 1px;
+  animation: bounce 0.6s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(25);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
